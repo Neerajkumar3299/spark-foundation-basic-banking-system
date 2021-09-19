@@ -1,6 +1,6 @@
 # spark-foundation-basic-banking-system
 <html>
-    <h3>project title</h3>
+    <h2>project title</h2>
     <p>Basic Banking System</p>
     <h2>Organization</h2>
     <p>Spark Foundation</p>
