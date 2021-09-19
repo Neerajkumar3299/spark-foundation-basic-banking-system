@@ -1,0 +1,48 @@
+  /* responsive for index page */
+  @media only screen and (max-width:900px){
+    .navbar{
+        flex-direction: column;
+        transition: all 3s ease-out;
+     
+    }
+    .h-nav-resp{
+        height: 70px;
+       
+    }
+    .v-class-resp{
+        opacity: 0;
+        
+    }
+    .menu{
+        opacity: 1;
+    }
+   
+    .navbar .menu i{
+        display: block;
+    }
+    .navbar .heading{
+          
+          width:60%;
+      }
+     
+      .navbar .link ul{
+          flex-direction: column;
+          margin: 5px 0px;
+      }
+      .navbar .link ul li{
+          padding: 5px;
+      }
+      .container .section .home-section{
+          flex-direction: column-reverse;
+      }
+      .container .section .home-section .home-image{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+      }
+      .container .section .home-section .home-image img{
+          width: 50%;
+          height: 50%;
+          border-radius: 50%;
+      }
+  }

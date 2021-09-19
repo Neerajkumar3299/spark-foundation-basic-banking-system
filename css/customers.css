@@ -1,0 +1,94 @@
+
+.container .section{
+    width: 100%;
+    height: 100%;
+    
+    background: linear-gradient(#780bf5,#11addd);
+}
+
+
+.container .section .section-data-title{
+    width: 90%;
+    padding: 10px;
+    margin:auto;
+    
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(55, 55, 156);
+    color: white;
+    font-size: 25px;
+}
+.container .section .section-data .section-table{
+    width: 90%;
+    height: 100%;
+    margin:auto;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.container .section .section-data .section-table table{
+    width: 100%;
+    border-collapse:collapse;
+}
+.container .section .section-data .section-table th{
+    
+    padding: 10px;
+    background-color: aquamarine;
+    font-weight: bold;
+    text-align: left;
+}
+.container .section .section-data .section-table td{
+    
+    padding: 10px;
+    text-align: left;
+    margin: 2px 0px;
+}
+.container .section .section-data .section-table a{
+    padding:8px 18px;
+font-weight: bold;
+color: white;
+background-color: blue;
+border: none;
+border-radius: 3px;
+margin:0px 6px;
+text-decoration:none;
+}
+.container .section .section-data .section-table a:hover{
+background-color: rgb(38, 38, 190);
+cursor: pointer;
+}
+.container .section .section-data .section-table a:focus{
+background-color: rgb(39, 39, 95);
+}
+#delete{
+    background-color: red;
+}
+
+#transaction-history{
+    background-color: #10d610;
+}
+.section-table a:hover{
+    background-color: rgb(38, 38, 190);
+    cursor: pointer;
+}
+.section-table a:focus{
+    background-color: rgb(39, 39, 95);
+}
+.section-table tr:nth-child(even) {
+    background-color: #dddddd;
+    margin: 2px 0px;
+  }
+  
+
+
+  
+  @media screen and (max-width: 840px) {
+    .navbar .heading{
+        width: 72%;
+    }
+    .section-table {
+        width:100%;
+        overflow-x:auto;
+    }
+}
+
